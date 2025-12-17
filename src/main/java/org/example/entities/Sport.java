@@ -5,6 +5,7 @@ public class Sport {
     private String Sports;
 
     //method
+    @Override
     public String toString(){
         return "Sport:"+this.Sports;
     }

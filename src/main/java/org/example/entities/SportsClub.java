@@ -6,6 +6,7 @@ public class SportsClub {
     private int Memberscount;
 
     //method
+    @Override
     public String toString(){
         return "Club name:"+this.ClubName+" and "+"age:"+this.Memberscount;
     }
@@ -18,6 +19,7 @@ public class SportsClub {
     public void setClubName(String name){
         this.ClubName=name;
     }
+
 
     //getter Memberscount
     public int getMemberscount(){

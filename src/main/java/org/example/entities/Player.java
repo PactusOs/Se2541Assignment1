@@ -9,10 +9,14 @@ public class Player {
     private String playerFullname;
     private int playerAge;
     private int playerClass;
+    private SportsClub sportsClub;
+    private Sport sport;
+
 
     //method
+    @Override
     public String toString(){
-        return "Player name:"+this.playerFullname+", "+"age:"+this.playerAge+" and "+"class:"+this.playerClass;
+        return "Player name:"+this.playerFullname+", "+"age:"+this.playerAge+" and "+"class:"+this.playerClass+" "+this.sportsClub+" "+this.sport;
     }
 
     //getter fullname
@@ -41,6 +45,7 @@ public class Player {
     public void setPlayerClass(int playerclass){
         this.playerClass=playerclass;
     }
+
 
 
 
