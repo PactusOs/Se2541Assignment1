@@ -13,6 +13,7 @@ public class Player {
     private Sport sport;
 
 
+
     //method
     @Override
     public String toString(){
@@ -46,10 +47,19 @@ public class Player {
         this.playerClass=playerclass;
     }
 
+    public SportsClub getSportsClub() {
+        return sportsClub;
+    }
 
+    public void setSportsClub(SportsClub sportsClub) {
+        this.sportsClub = sportsClub;
+    }
 
+    public Sport getSport() {
+        return sport;
+    }
 
-
-
-
+    public void setSport(Sport sport) {
+        this.sport = sport;
+    }
 }
