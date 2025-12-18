@@ -17,7 +17,7 @@ public class Player {
     //method
     @Override
     public String toString(){
-        return "Player name:"+this.playerFullname+", "+"age:"+this.playerAge+" and "+"class:"+this.playerClass+" "+this.sportsClub+" "+this.sport;
+        return "Player name:"+this.playerFullname+", "+"age:"+this.playerAge+", "+"class:"+this.playerClass+", "+this.sportsClub+" "+this.sport;
     }
 
     //getter fullname

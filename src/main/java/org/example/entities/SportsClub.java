@@ -5,10 +5,15 @@ public class SportsClub {
     private String ClubName;
     private int Memberscount;
 
+    public SportsClub() {
+    }
+
+
+
     //method
     @Override
     public String toString(){
-        return "Club name:"+this.ClubName+" and "+"age:"+this.Memberscount;
+        return "Club name:"+this.ClubName+", "+"member count:"+this.Memberscount;
     }
 
     //getter ClubName
